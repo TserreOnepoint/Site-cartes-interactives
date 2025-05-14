@@ -22,8 +22,10 @@ function generateCards(n) {
         card.addEventListener("click", () => {
             if (!card.classList.contains("flipped")) {
                 card.classList.add("flipped");
-            }
-        });
+            }else{
+                card.classList.remove("flipped");
+            
+        }});
         container.appendChild(card);
     }
 }
