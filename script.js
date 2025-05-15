@@ -39,3 +39,5 @@ input.addEventListener("change", () => {
 
 // Initial setup
 generateCards(parseInt(input.value));
+
+
