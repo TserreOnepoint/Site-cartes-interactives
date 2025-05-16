@@ -1,24 +1,17 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Card Flip Grid</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="page-title">Sélection de groupe</h1>
-
-    <div id="cardContainer" class="card-grid"></div>
-
     <div class="controls">
-        <button id="decrease">-</button>
+        <label for="cardCount">Number of cards:</label>
         <input type="number" id="cardCount" min="1" value="6" />
-        <button id="increase">+</button>
     </div>
-
+    <div id="cardContainer" class="card-grid"></div>
     <script src="script.js"></script>
 </body>
 </html>
